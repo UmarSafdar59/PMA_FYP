@@ -19,7 +19,7 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.Medici
 
     @Override
     public void onBindViewHolder(MedicineHolder holder, int position) {
-
+  // this is a test commit for master branch
     }
 
     @Override
