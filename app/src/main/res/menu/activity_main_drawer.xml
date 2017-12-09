@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. Umar Safdar All Rights Reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_record_event"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Record" />
+        <item
+            android:id="@+id/nav_add_medicine"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Add Medicine" />
+        <item
+            android:id="@+id/nav_view_report"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="View Report" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_backup_black_24dp"
+                android:title="Backup/Restore" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
